@@ -1,0 +1,15 @@
+{
+  "name": "abarashkov_cypress_saucedemo_project",
+  "version": "1.0.0",
+  "description": "Cypress SauceDemo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ABarashkov",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0",
+    "faker": "^5.5.3"
+  }
+}
