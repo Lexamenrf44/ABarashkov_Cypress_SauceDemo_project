@@ -11,7 +11,7 @@
 ## Description
 
 This repository contains automated end-to-end tests written in Cypress for the Demo Sauce website.
-![image](https://user-images.githubusercontent.com/89348016/236886179-de5de5ea-4071-43fe-953f-6b9659b8998e.png)
+![image](https://github.com/Lexamenrf44/ABarashkov_Cypress_SauceDemo_project/assets/94826692/063faadb-726e-47d4-a2c8-965225323069)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="40px" width="40px" /></a>
 
