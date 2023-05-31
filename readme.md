@@ -1,18 +1,45 @@
-SauceDemo
 
-This is the README file for the SauceDemo project.
+# Cypres33
+## Table of Contents
 
-Project Description
-As part of the selection process for the QA Automation Engineer position, each should complete the test assignment. It should take ~2hr or less for a QA Automation Engineer with prior end-to-end experience
+- [Description](#description)
+- [Getting Started](#getting-started)
+    - [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
-Prerequisites
-Node.js should be installed on the PC prior to the tests running
+## Description
 
-Installation
-Clone the repository: git clone https://github.com/Lexamenrf44/ABarashkov_Cypress_SauceDemo_project.git
-Navigate to the project directory: cd ABarashkov_Cypress_SauceDemo_project
-Type 'npx cypress open' and run the test
+This repository contains automated end-to-end tests written in Cypress for the Demo Sauce website.
+![image](https://user-images.githubusercontent.com/89348016/236886179-de5de5ea-4071-43fe-953f-6b9659b8998e.png)
 
-Contacts
-email: abarashkov45@gmail.com
-telegram: https://t.me/Lexamenrf45
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="40px" width="40px" /></a>
+
+
+## Getting Started
+
+Clone the repository:
+```bash
+-git clone https://github.com/Lexamenrf44/ABarashkov_Cypress_SauceDemo_project.git
+```
+
+### Installation
+```bash
+-cd cypress-demo-sauce
+-npm install
+```
+
+## Usage
+
+Start the Cypress Test Runner:
+
+```bash
+-npx cypress open
+```
+In the Cypress Test Runner,
+click on e2e.js to run the tests.
+
+
+## License
+
+<a href="https://choosealicense.com/licenses/mit/"><img src="https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/mit.svg" height=40 />MIT License</a>
