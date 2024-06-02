@@ -1,6 +1,19 @@
+import data from "../../support/data";
+
 const app_sauce = {
 
     loginUI(path = '', username = data.user_test_login, password = data.user_test_password, success = true) {
+
+        // If username is empty, generate a new one
+        if (!username || username.trim() === '') {
+            username = generate.email();
+        }
+
+        // If password is empty, generate a new one
+        if (!password || password.trim() === '') {
+            password = generate.password();
+        }
+
         cy.visit('' + path);
         cy.get(this.app_field_username_input).type(username);
         cy.get(this.app_field_password_input).type(password)
@@ -13,6 +26,7 @@ const app_sauce = {
         }
     },
 
+    /*
     login(path = '', username = data.customer_001, password = data.defaultPassword, success = true) {
         helpers.prepareCookies()
         cy.request('GET', 'auth/sign_in').then((resp) => {
@@ -42,6 +56,7 @@ const app_sauce = {
     assertSnackbar(msg) {
         cy.get('body').should('contain.text', msg)
     },
+    */
 
     //Login page
     app_field_username_input: 'input[data-test="username"]',
