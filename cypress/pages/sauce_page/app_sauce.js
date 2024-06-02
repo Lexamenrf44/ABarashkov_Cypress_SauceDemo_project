@@ -2,16 +2,16 @@ import data from "../../support/data";
 
 const app_sauce = {
 
-    loginUI(path = '', username = data.user_test_login, password = data.user_test_password, success = true) {
+    loginUI(path = '', username = global.data.user_test_login, password = global.data.user_test_password, success = true) {
 
         // If username is empty, generate a new one
         if (!username || username.trim() === '') {
-            username = generate.email();
+            username = global.data.generate.email();
         }
 
         // If password is empty, generate a new one
         if (!password || password.trim() === '') {
-            password = generate.password();
+            password = global.data.generate.password();
         }
 
         cy.visit('' + path);
