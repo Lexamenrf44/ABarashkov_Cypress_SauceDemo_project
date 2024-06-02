@@ -4,7 +4,7 @@ import app_sauce from "../../pages/sauce_page/app_sauce";
 describe('SauceDemo', () => {
 
   it('Should login to SauceDemo', () => {
-    app_sauce.loginUI('', 'standard_user', 'secret_sauce')
+    app_sauce.loginUI('', 'standard_user', 'secret_sauce', true)
     cy.url().should('include', '/inventory.html')
 
   })
